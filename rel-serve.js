@@ -2,4 +2,4 @@
 
 
 // Int express server
-require('./index')();
+require('./lib/server')();
