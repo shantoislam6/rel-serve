@@ -1,6 +1,6 @@
 {
   "name": "rel_serve_sh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple development http server with reload capability",
   "scripts": {
     "start": "node index.js"
