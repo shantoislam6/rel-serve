@@ -16,11 +16,11 @@
   "author": "shantoislam6",
   "license": "MIT",
   "bin": {
-    "rel_serve_sh": "./rel-serve.js"
+    "rel_serve": "./rel-serve.js"
   },
-  "main": "./lib/index",
+  "main": "./lib/server",
   "files": [
-    "./lib/index.js"
+    "./lib/server.js"
   ],
   "repository": {
     "type": "git",
