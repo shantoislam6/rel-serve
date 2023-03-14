@@ -18,9 +18,10 @@
   "bin": {
     "rel-serve": "./rel-serve.js"
   },
-  "main": "./lib/server",
+  "main": "rel-serve.js",
   "files": [
-    "./lib/server.js"
+    "lib",
+    "rel-serve.js"
   ],
   "repository": {
     "type": "git",
