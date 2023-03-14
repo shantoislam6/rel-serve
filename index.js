@@ -16,7 +16,7 @@ let HOST = argv.host || argv.h || argv.HOST || preHost;
 const rePort = PORT != prePort;
 const reHost = HOST != preHost;
 
-// scan host wheter it's alive or not
+// scan host whether it's alive or not
 const scanHost = (host) => {
   return new Promise((res) => {
     ping.sys.probe(HOST, (isAlive) => {
@@ -29,7 +29,7 @@ const scanHost = (host) => {
   });
 };
 
-// scan port wheather it's running or not
+// scan port whether it's running or not
 const scanPort = (port, host) => {
   return new Promise((resolve) => {
     const socket = new net.Socket();
