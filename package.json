@@ -1,0 +1,18 @@
+{
+  "name": "rel_serve_sh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "shantoislam6",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "net": "^1.0.2",
+    "ping": "^0.4.4",
+    "yargs": "^17.7.1"
+  }
+}
