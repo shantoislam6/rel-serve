@@ -16,7 +16,7 @@
   "author": "shantoislam6",
   "license": "MIT",
   "bin": {
-    "rel_serve": "./rel-serve.js"
+    "rel-serve": "./rel-serve.js"
   },
   "main": "./lib/server",
   "files": [
