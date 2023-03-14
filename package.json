@@ -1,14 +1,34 @@
 {
   "name": "rel_serve_sh",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple development http server with reload capability",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "front-end",
+    "development",
+    "tool",
+    "server",
+    "http",
+    "cli",
+  ],
   "author": "shantoislam6",
   "license": "MIT",
+  "bin": {
+    "rel_serve_sh": "./rel_serve_sh.js"
+  },
+  "main": "./lib/nodemon",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shantoislam6/rel_serve_sh.git"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "net": "^1.0.2",
