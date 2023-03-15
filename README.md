@@ -16,13 +16,17 @@ Or, if want to use as dev dependency
 ```sh
 npm install rel-serve --save-dev
 ```
-
-**Manual way**
+Or, if want to install Manually and customize
 ```sh
 git clone https://github.com/shantoislam6/rel_serve_sh.git
 cd rel-serve
 npm install # Local dependencies if you want to hack
 npm install -g # Install globally
+```
+
+Or you can just run this command inside your project's directory without installing 
+```sh 
+npx rel-serve
 ```
 
 **Once installation is done, you can run this command inside your project's directory**
@@ -34,6 +38,8 @@ Or
 ```sh 
 rel-serve -p 8080 -h 127.0.0.1
 ```
+
+
 
 Command line parameters:
 
