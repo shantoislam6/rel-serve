@@ -11,23 +11,24 @@ You need node.js and npm. You should probably install this globally.
 ```sh
 npm install -g rel-serve
 ```
-Or, if want to use as dev dependency 
+if you want to use as dev dependency 
 
 ```sh
 npm install rel-serve --save-dev
 ```
-Or, if want to install Manually and customize
+**Or you can just run this command inside your project's directory without installing**
+```sh 
+npx rel-serve
+```
+
+if want to install Manually and customize
 ```sh
 git clone https://github.com/shantoislam6/rel_serve_sh.git
 cd rel-serve
 npm install # Local dependencies if you want to hack
 npm install -g # Install globally
 ```
-
-Or you can just run this command inside your project's directory without installing 
-```sh 
-npx rel-serve
-```
+<hr>
 
 **Once installation is done, you can run this command inside your project's directory**
 ```sh
