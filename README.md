@@ -30,7 +30,8 @@ npm install -g # Install globally
 ```
 <hr>
 
-**Once installation is done, you can run this command inside your project's directory**
+Once installation is done, you can run this command inside your project's directory
+------------
 ```sh
 rel-serve
 ```
