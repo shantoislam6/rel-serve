@@ -1,6 +1,6 @@
 {
   "name": "rel-serve",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple development http server to reponse static files",
   "scripts": {
     "start": "node index.js"
