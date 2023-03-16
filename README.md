@@ -38,15 +38,15 @@ rel-serve
 Or
 
 ```sh 
-rel-serve -p 8080 -h 127.0.0.1
+rel-serve --port 8080 -host 127.0.0.1
 ```
 
 
 
 Command line parameters:
 
-* `--port=NUMBER` - select port to use, default: PORT env var or 8080
-* `--host=ADDRESS` - select host address to bind to, default: IP env var or 0.0.0.0 ("any address")
+* `--port NUMBER` - select port to use, default: PORT env var or 8080
+* `--host ADDRESS` - select host address to bind to, default: IP env var or 0.0.0.0 ("any address")
 * `--help | -h` - display terse usage hint and exit
 * `--version | -v` - display version and exit
 
